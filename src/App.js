@@ -12,13 +12,14 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      isMobile: false
+      isMobile: window.innerWidth < 768
     }
   }
   
   componentDidMount = () => {window.addEventListener("resize", this.resize.bind(this))}
   resize = () => {this.setState({isMobile: window.innerWidth < 768})}
   componentWillUnmount = () => {window.removeEventListener("resize", this.resize.bind(this))}
+
 
 
   render() {
