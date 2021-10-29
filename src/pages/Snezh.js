@@ -19,7 +19,7 @@ class Snezh extends Component {
     render() {
         return (
             <>
-                <HeshTable myHesh={heshs[1]}/>
+                <HeshTable myHesh={heshs[1]} isMobile={this.props.isMobile}/>
                 <InputForm myHesh={heshs[1]} generateString={this.generateString} isMobile={this.props.isMobile}/>
                 <OutputForm stringHesh={this.state.stringHesh} generateString={this.generateString} isMobile={this.props.isMobile}/>
             </>
