@@ -1,0 +1,16 @@
+.inputMy {
+    width: 60px;
+}
+
+a {
+    color: black;
+    transition: all .2s linear;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    cursor: default;
+}
+
+a:hover {
+    color: gray;
+}
