@@ -28,9 +28,9 @@ function generator(valueN, valueS, valueV, myHesh, generateString) {
         result = myHesh.heshM, 
         temp = [];
     
-    temp = addArr(myHesh.heshN, myHesh.heshN.length);
+    temp = addArr(myHesh.heshV, myHesh.heshV.length);
     temp = shuffle(temp);
-    temp = addArr(temp, valueN);
+    temp = addArr(temp, valueV);
     result = result.concat(temp);
     temp = [];
     
@@ -40,9 +40,9 @@ function generator(valueN, valueS, valueV, myHesh, generateString) {
     result = result.concat(temp);
     temp = [];
 
-    temp = addArr(myHesh.heshV, myHesh.heshV.length);
+    temp = addArr(myHesh.heshN, myHesh.heshN.length);
     temp = shuffle(temp);
-    temp = addArr(temp, valueV);
+    temp = addArr(temp, valueN);
     result = result.concat(temp);
     temp = [];
     

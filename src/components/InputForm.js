@@ -8,16 +8,16 @@ class MobileInputForm extends Component {
         return (
             <div className="mt-3">
                 <div>
-                    <em className="me-2">Низкочастотные:</em>
-                    <input type="number" className="inputMy" value={this.props.N} onChange={this.props.handleChangeN}/>
+                    <em className="me-2">Высокочастотные:</em>
+                    <input type="number" className="inputMy" value={this.props.V} onChange={this.props.handleChangeV}/>
                 </div>
                 <div className="mt-2">
                     <em className="me-2">Среднечастотные:</em>
                     <input type="number" className="inputMy" value={this.props.S} onChange={this.props.handleChangeS}/>
                 </div>
                 <div className="mt-2">
-                    <em className="me-2">Высокочастотные:</em>
-                    <input type="number" className="inputMy" value={this.props.V} onChange={this.props.handleChangeV}/>
+                    <em className="me-2">Низкочастотные:</em>
+                    <input type="number" className="inputMy" value={this.props.N} onChange={this.props.handleChangeN}/>
                 </div>
             </div>
         );
@@ -29,16 +29,16 @@ class DefaultInputForm extends Component {
         return (
             <div className="row justify-content-md-center mt-4">
                 <div className="col-md-auto">
-                    <em className="me-2">Низкочастотные:</em>
-                    <input type="number" className="inputMy" value={this.props.N} onChange={this.props.handleChangeN}/>
+                    <em className="me-2">Высокочастотные:</em>
+                    <input type="number" className="inputMy" value={this.props.V} onChange={this.props.handleChangeV}/>
                 </div>
                 <div className="col-md-auto">
                     <em className="me-2">Среднечастотные:</em>
                     <input type="number" className="inputMy" value={this.props.S} onChange={this.props.handleChangeS}/>
                 </div>
                 <div className="col-md-auto">
-                    <em className="me-2">Высокочастотные:</em>
-                    <input type="number" className="inputMy" value={this.props.V} onChange={this.props.handleChangeV}/>
+                    <em className="me-2">Низкочастотные:</em>
+                    <input type="number" className="inputMy" value={this.props.N} onChange={this.props.handleChangeN}/>
                 </div>
             </div>
         );

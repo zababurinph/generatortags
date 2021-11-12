@@ -1,6 +1,6 @@
 export const 
-    constHeshN = 3, 
+    constHeshN = 7, 
     constHeshS = 10, 
-    constHeshV = 7;
+    constHeshV = 3;
 
 //export default constHeshN;
